@@ -5,7 +5,7 @@ module.exports = {
     description: '这是我的第一个 VuePress 站点',
 
     base: "/lvan/",
-    
+
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
