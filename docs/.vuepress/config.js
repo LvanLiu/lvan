@@ -1,14 +1,27 @@
 module.exports = {
     // 站点配置
     lang: 'zh-CN',
-    title: '你好， VuePress ！',
-    description: '这是我的第一个 VuePress 站点',
-
+    title: "lvan's blog",
+    description: '一个分享 Java 相关技术的博客',
     base: "/lvan/",
+    head: [['link', {rel: 'icon', href: '/images/logo.png'}]],
 
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
-        logo: 'https://vuejs.org/images/logo.png',
+        logo: '/images/logo.png',
+        navbar: []
     },
+    plugins: [
+        [
+            '@vuepress/plugin-search',
+            {
+                locales: {
+                    '/': {
+                        placeholder: 'Search',
+                    }
+                },
+            },
+        ],
+    ],
 }
