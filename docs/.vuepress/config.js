@@ -4,7 +4,7 @@ module.exports = {
     title: "lvan's blog",
     description: '一个分享 Java 相关技术的博客',
     base: "/lvan/",
-    head: [['link', {rel: 'icon', href: '/images/logo.png'}]],
+    head: [['link', {rel: 'icon', href: '/lvan/images/logo.png'}]],
 
     // 主题和它的配置
     theme: '@vuepress/theme-default',
