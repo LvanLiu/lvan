@@ -10,7 +10,7 @@ module.exports = {
     theme: '@vuepress/theme-default',
     themeConfig: {
         logo: '/images/logo.png',
-        navbar: []
+        repo: 'LvanLiu/lvan'
     },
     plugins: [
         [
