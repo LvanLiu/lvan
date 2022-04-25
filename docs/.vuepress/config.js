@@ -1,8 +1,8 @@
 module.exports = {
     // 站点配置
     lang: 'zh-CN',
-    title: "lvan's blog",
-    description: '一个分享 Java 相关技术的博客',
+    title: "coding with lvan",
+    description: 'Java 技术栈 🧑‍💻  | 坚持原创 🎨',
     base: "/lvan/",
     head: [['link', {rel: 'icon', href: '/lvan/images/logo.png'}]],
 
