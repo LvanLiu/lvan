@@ -1,7 +1,7 @@
 ---
 home: true,
 title: Home
-heroImage: /images/logo.jpg
+heroImage: /images/hero.gif
 actions:
 - text: 开始阅读
   link: /

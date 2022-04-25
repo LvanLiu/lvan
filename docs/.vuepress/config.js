@@ -4,7 +4,7 @@ module.exports = {
     title: "coding with lvan",
     description: 'Java 技术栈 🧑‍💻  | 坚持原创 🎨',
     base: "/lvan/",
-    head: [['link', {rel: 'icon', href: '/lvan/images/logo.png'}]],
+    head: [['link', {rel: 'icon', href: '/lvan/images/hero.gif'}]],
 
     // 主题和它的配置
     theme: '@vuepress/theme-default',
